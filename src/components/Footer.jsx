@@ -37,7 +37,7 @@ export const Footer = () => {
             <ul>
               <li><span>+81 80 9381 8491</span></li>
               <li><span>+81 80-5166-2345</span></li>
-              <li><span>infonexca@gmail.com</span></li>
+              <li><span>nexcainfo@gmail.com</span></li>
             </ul>
           </div>
 
