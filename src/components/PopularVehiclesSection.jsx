@@ -1,12 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Heart, MapPin, Calendar, Star } from 'lucide-react';
 import './PopularVehiclesSection.css';
 
 const PopularVehiclesSection = () => {
-  const [activeTab, setActiveTab] = useState('SUVs');
-  
-  const tabs = ['SUVs', 'Sedans', 'Hatchbacks', 'Luxury', 'Sports', 'JDM Exclusives'];
-
   const vehicles = [
     {
       id: 1,
@@ -54,18 +50,6 @@ const PopularVehiclesSection = () => {
               Explore our most sought-after Japanese imports and take the next step towards your dream vehicle today.
             </p>
           </div>
-        </div>
-
-        <div className="pv-tabs">
-          {tabs.map(tab => (
-            <button 
-              key={tab} 
-              className={`pv-tab ${activeTab === tab ? 'active' : ''}`}
-              onClick={() => setActiveTab(tab)}
-            >
-              {tab}
-            </button>
-          ))}
         </div>
 
         <div className="pv-grid">
