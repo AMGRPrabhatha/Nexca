@@ -35,7 +35,6 @@ export const Footer = () => {
           <div className="footer-col contact-col">
             <h5>CONTACT INFO</h5>
             <ul>
-              <li><span>+81 80 9381 8491</span></li>
               <li><span>+81 80-5166-2345</span></li>
               <li><span>nexcainfo@gmail.com</span></li>
             </ul>
