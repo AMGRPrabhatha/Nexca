@@ -54,7 +54,7 @@ export const Footer = () => {
         <div className="footer-bottom-row">
           <div className="footer-bottom-left">
             <div className="location-pin">
-              <MapPin size={14} color="#ff3e00" fill="#ff3e00" /> <strong>Sri Lanka</strong>
+              <MapPin size={14} color="#ff3e00" fill="#ff3e00" /> <strong>Japan</strong>
             </div>
             <div className="copyright-text">
               © 2026 Nexca. All rights reserved @RP
